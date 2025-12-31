@@ -1,0 +1,12 @@
+[submodule "mesa-nvk"]
+	path = mesa-nvk
+	url = https://github.com/X547/mesa.git
+	branch = mesa-nvk-r2
+[submodule "mesa-zink"]
+	path = mesa-zink
+	url = https://github.com/X547/mesa.git
+	branch = haiku-zink
+[submodule "open-gpu-kernel-modules"]
+	path = open-gpu-kernel-modules
+	url = https://github.com/X547/open-gpu-kernel-modules.git
+	branch = 570.86.16-haiku

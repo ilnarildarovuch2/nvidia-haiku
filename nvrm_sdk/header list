@@ -1,0 +1,43 @@
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvlimits.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvstatus.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvtypes.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/cpuopsys.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvstatuscodes.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nv_stdarg.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv-caps.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nv-kernel-interface-api.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/common/inc/nv-firmware.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvtypes.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvmisc.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv-ioctl.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv-ioctl-numbers.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv-ioctl-numa.h
+open-gpu-kernel-modules/src/nvidia/inc/kernel/os/nv_memory_area.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv_escape.h
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv-unix-nvos-params-wrappers.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvos.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvstatus.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvgputypes.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/rs_access.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvmisc.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvcfg_sdk.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/alloc/alloc_channel.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/nvcfg_sdk.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/class/cl9010.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/class/cl9010_callback.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/ctrl/ctrl0000/ctrl0000unix.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/ctrl/ctrl0000/ctrl0000base.h
+open-gpu-kernel-modules/src/common/sdk/nvidia/inc/ctrl/ctrlxxxx.h
+
+open-gpu-kernel-modules/src/nvidia/arch/nvalloc/unix/include/nv.h
+	#include <nvlimits.h>
+	#include <nvstatus.h>
+	#include "nv_stdarg.h"
+	#include <nv-caps.h>
+	#include <nv-firmware.h>
+	#include <nv-ioctl.h>
+	#include <nv-ioctl-numa.h>
+	#include <nvmisc.h>
+	#include <os/nv_memory_area.h>
+	#include <nv-kernel-interface-api.h>
